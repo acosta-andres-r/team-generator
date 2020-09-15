@@ -1,6 +1,8 @@
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+// Team class
+const Team = require("./lib/Team")
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
@@ -13,6 +15,14 @@ const render = require("./lib/htmlRenderer");
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
+
+// Initialize a new Team object
+const team = new Team();
+
+// Start playing
+team.start();
+
+
 
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
