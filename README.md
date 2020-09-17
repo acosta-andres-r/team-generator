@@ -26,6 +26,10 @@ npm install
 ```
 
 ### Usage
+To start using this command-line application, you need to enter `node index.js` in the terminal inside the root folder that contains the mentioned file.
+
+The CLI application also validates the user's input so every prompt will contain the correct format to render in the ```team.html``` file.
+
 Demo
 ![](demo/team-generator.gif)
 
@@ -40,7 +44,7 @@ Licensed under the [MIT license](LICENSE.md).
 
 
 ### Contributing
-Contribution
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
 
 ### Test
 ```npm run test```
